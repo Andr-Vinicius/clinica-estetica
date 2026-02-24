@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-nude-50);
+  }
+
+  .title-font {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @theme {
+    --color-nude-50: #FFD7D7;
+    --color-nude-100: #F3B6B6;
+    --color-nude-200: #E0A2A2;
+    --color-nude-300: #A56C6C;
+    --color-nude-400: #915858;
+  }
+
