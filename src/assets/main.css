@@ -3,6 +3,7 @@
 @plugin "daisyui";
 
 
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-nude-50);
@@ -20,3 +21,14 @@ body {
     --color-nude-400: #915858;
   }
 
+  @theme {
+    @keyframes rotate-text {
+      /* Entra rápido, fica um pouco, sai rápido */
+      0%, 5% { opacity: 0; transform: translateY(8px); }
+      10%, 25% { opacity: 1; transform: translateY(0); }
+      30%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+  
+    /* Ciclo total de 8s (2s por palavra) */
+    --animate-rotate-fast: rotate-text 8s infinite;
+  }
