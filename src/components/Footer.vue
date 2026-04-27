@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer sm:footer-horizontal items-center  px-4 py-6 bg-nude-100 text-nude-400 relative">
+    <footer class="footer sm:footer-horizontal items-center px-4 py-6 bg-nude-100 text-nude-50 font-megante font-bold mt-auto">
     <aside class="grid-flow-col items-center">
         <svg
         width="36"

@@ -2,10 +2,44 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@font-face {
+  font-family: "Megante";
+  src: url("/public/fonts/Meganté-Personal-Use.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/public/fonts/FutuMd.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-megante{
+  font-family: "Megante", sans-serif;
+}
+
+.font-futura{
+  font-family: "Futura", sans-serif;
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
     background-color: var(--color-nude-50);
   }
 
@@ -14,8 +48,8 @@ body {
   }
 
   @theme {
-    --color-nude-50: #FFD7D7;
-    --color-nude-100: #F3B6B6;
+    --color-nude-50: #DEC8BB;
+    --color-nude-100: #00303C;
     --color-nude-200: #E0A2A2;
     --color-nude-300: #A56C6C;
     --color-nude-400: #915858;

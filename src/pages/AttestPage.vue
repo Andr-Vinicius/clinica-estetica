@@ -73,11 +73,11 @@ const testimonials = [
 </script>
 
 <template>
-  <section class="flex flex-col items-center justify-center xl:mt-20">
-    <h1 class="text-4xl font-bold text-nude-400 text-center my-10">
+  <section class="flex flex-col items-center justify-center xl:mt-30">
+    <h1 class="text-4xl font-bold text-nude-100 text-center my-10">
       Depoimentos
     </h1>
-    <p class="text-lg text-nude-300 xl:-mt-4">
+    <p class="text-lg text-nude-100 xl:-mt-4">
       O que os pacientes dizem sobre o meu serviço?
     </p>
     <section class="h-screen flex items-center justify-center -mt-20">
@@ -91,11 +91,11 @@ const testimonials = [
       </div>
     </section>
     <div class="w-full max-w-10xl mx-auto px-12 py-12 -mt-20">
-      <h3 class="text-xl font-bold text-nude-400 text-center">Outros depoimentos</h3>
+      <h3 class="text-4xl font-bold text-nude-100 text-center">Outros depoimentos</h3>
       <Swiper
         :modules="[Navigation]"
         navigation
-        class="my-swiper mt-10"
+        class="my-swiper mt-10 "
         :loop="true"
         :slides-per-view="4"
         :space-between="32"
@@ -126,7 +126,7 @@ const testimonials = [
   /* Cria espaço extra na parte de baixo para os botões */
   padding-bottom: 80px;
 
-  --swiper-navigation-color: var(--color-nude-400);
+  --swiper-navigation-color: #00303C;
   --swiper-navigation-size: 28px;
 }
 

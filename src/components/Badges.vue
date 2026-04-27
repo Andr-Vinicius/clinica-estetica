@@ -1,27 +1,27 @@
 <template>
   <div class="grid h-10 overflow-hidden">
     <span
-      class="badge badge-lg badge-outline badge-primary col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:0s]"
+      class="badge badge-lg badge-outline text-nude-100 col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:0s]"
     >
-      Texto 1 - Bláblabla
+      Confiança
     </span>
 
     <span
-      class="badge badge-lg badge-outline badge-primary col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:2s]"
+      class="badge badge-lg badge-outline text-nude-100 col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:2s]"
     >
-      Texto 2 - Bláblabla
+      Qualidade
     </span>
 
     <span
-      class="badge badge-lg badge-outline badge-primary col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:4s]"
+      class="badge badge-lg badge-outline text-nude-100 col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:4s]"
     >
-      Texto 3 - Bláblabla
+      Autoestima
     </span>
 
     <span
-      class="badge badge-lg badge-outline badge-primary col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:6s]"
+      class="badge badge-lg badge-outline text-nude-100 col-start-1 row-start-1 opacity-0 animate-rotate-fast [animation-delay:6s]"
     >
-      Texto 4 - Bláblabla
+      Transformação
     </span>
   </div>
 </template>
