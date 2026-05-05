@@ -1,6 +1,6 @@
 <template>
   <div class="card w-80 min-h-64 max-h-64 shadow-sm overflow-hidden">
-    <div class="card-body bg-nude-100 text-nude-400">
+    <div class="card-body bg-nude-100 text-nude-50">
       
       <div class="flex flex-row items-center gap-3">
         <div class="avatar avatar-placeholder">

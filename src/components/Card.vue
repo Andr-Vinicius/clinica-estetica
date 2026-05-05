@@ -1,6 +1,6 @@
 <template>
     <div 
-      class="card bg-nude-100 text-nude-50 w-96 h-95 shadow-sm transition delay-100 duration-300 ease-in-out hover:-translate-y-4 flex flex-col overflow-hidden"
+      class="card bg-nude-100 text-nude-50 w-96 h-95 lg:w-96 lg:h-95 shadow-sm transition delay-100 duration-300 ease-in-out hover:-translate-y-4 flex flex-col overflow-hidden"
     >
       <figure class="h-64 w-full overflow-hidden shrink-0">
         <img 

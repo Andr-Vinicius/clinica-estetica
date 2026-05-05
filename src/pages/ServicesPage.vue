@@ -4,18 +4,18 @@ import Card from '@/components/Card.vue';
 </script>
 
 <template>
-    <section class="flex flex-col items-center justify-center xl:mt-30">
+    <section class="flex flex-col items-center justify-center mt-30 xl:mt-30">
         <h1 class="text-4xl font-bold text-nude-100 text-center my-10">Conheça nossos tratamentos</h1>
         <p class="text-lg text-nude-100 xl:-mt-4">As técnicas mais modernas para você!</p>
         <div class="indicator mt-6 group">
-            <span class="indicator-item badge badge-secondary group-hover:hidden">
+            <span class="indicator-item bg-red-600/90 badge border-none badge-secondary group-hover:hidden">
                 Últimas vagas!
             </span>
 
             <a href="https://wa.me/5519971311419?text=Olá,%20quero%20agendar%20uma%20consulta!" 
             target="_blank">
 
-                <button class="btn btn-wide text-base bg-nude-100 shadow-lg border-nude-200 text-nude-50 hover:border-nude-100 hover:bg-nude-50 hover:text-nude-100">
+                <button class="btn btn-wide text-base bg-nude-100 shadow-lg shadow-nude-100/40 border-nude-100 text-nude-50 hover:border-nude-100 hover:bg-nude-50 hover:text-nude-100">
                     Agende já a sua consulta!
                 </button>
 
@@ -44,15 +44,18 @@ import Card from '@/components/Card.vue';
                 image="/botox.jpg"
             />
         </section>
-        <section class="h-screen flex items-center justify-center ">
-            <div class="w-full h-full max-h-[80vh] max-w-6xl aspect-video">
-            <iframe
-                class="w-full h-full rounded-xl shadow-xl"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                allowfullscreen>
-            </iframe>
-            </div>
-        </section>
+<section class="w-full px-4 py-8 flex items-center justify-center">
+    <div class="w-full max-w-6xl aspect-video">
+      <iframe
+        class="w-full h-full rounded-xl shadow-xl"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
     </section>
   </template>
   
